@@ -9,7 +9,7 @@ const App = () => {
 <ol>
         {
           relativeList.map((relativeListItem,index)  => 
-            <li key={relativeListItem}> {relativeListItem}</li>
+            <li key={relativeListItem}>relativeListItem{index} {relativeListItem}</li>
           )
         }
       </ol>
